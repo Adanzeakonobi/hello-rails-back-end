@@ -5,6 +5,7 @@
 > This is a backend for the Hello-world webapp.
 
 > Link to [frontend app](https://github.com/Adanzeakonobi/hello-react-front-end.git)
+
 > Pull request to [Frontend](https://github.com/Adanzeakonobi/hello-react-front-end/pull/1)
 
 ## Setup Project
@@ -19,17 +20,7 @@ cd budget-app
 bundle install
 ```
 
-- You will need a `.env` file before you install and run the project. The `.env` file contains environment variables needed to deploy the webpage. There is a commented `.env.example` file you can use as a guide to configure your own. Type the following command into the terminal (or Git Bash, if using Windows) to create your `.env` file:
-
-```
-cp .env.example .env
-rails secret
-```
-
-- Edit file .env
-
-  - Replace the value for the variable DEVISE_JWT_SECRET_KEY with the value returned by the `rails secret` command.
-  - Provide values for DATABASE_HOST, DATABASE_USER and DATABASE_PASSWORD
+- Provide values for DATABASE_HOST, DATABASE_USER and DATABASE_PASSWORD
 
 - Type this command into the terminal to reset the database:
 
